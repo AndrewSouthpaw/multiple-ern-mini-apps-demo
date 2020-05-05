@@ -1,0 +1,37 @@
+{
+  "name": "movie-list-miniapp",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "ern-movie-list-demo-api": "1.0.2",
+    "ern-movie-list-demo-js-api-implementation-for-class": "0.0.3",
+    "ern-navigation": "1.2.1",
+    "react": "16.8.6",
+    "react-native": "0.60.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.0",
+    "@babel/runtime": "^7.5.0",
+    "@react-native-community/eslint-config": "^0.0.3",
+    "babel-jest": "^24.1.0",
+    "jest": "^24.1.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "ern": {
+    "moduleName": "MovieListMiniApp",
+    "moduleType": "ern-miniapp",
+    "packageManager": "yarn",
+    "version": "0.38.7"
+  },
+  "keywords": [
+    "ern-miniapp"
+  ]
+}

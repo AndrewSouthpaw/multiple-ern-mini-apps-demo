@@ -1,0 +1,38 @@
+{
+  "name": "thank-you-miniapp",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "ern-navigation": "1.2.2",
+    "react": "16.8.6",
+    "react-native": "0.60.5",
+    "react-native-ernnavigation-api": "^0.0.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/runtime": "^7.9.6",
+    "@react-native-community/eslint-config": "^1.1.0",
+    "babel-jest": "^25.5.1",
+    "eslint": "^6.8.0",
+    "jest": "^25.5.2",
+    "metro-react-native-babel-preset": "^0.59.0",
+    "react-test-renderer": "16.8.6"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "ern": {
+    "moduleName": "ThankYouMiniApp",
+    "moduleType": "ern-miniapp",
+    "packageManager": "yarn",
+    "version": "0.38.7"
+  },
+  "keywords": [
+    "ern-miniapp"
+  ]
+}
